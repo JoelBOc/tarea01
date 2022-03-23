@@ -6,7 +6,7 @@ int main(void)
   // Configuración de la notación científica y cantidad de cifras decimales 
   std::cout.precision(16); std::cout.setf(std::ios::scientific);
   int b = 1;
-  for (int n = 0; n <= 10; ++n) {
+  for (int n = 1; n <= 10; ++n) {
     double c = std::pow(10,-n);
 
     // Como  a = 1.0  entonces es omitible en las multiplicaciones de las fórmulas
